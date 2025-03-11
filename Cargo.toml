@@ -1,0 +1,31 @@
+[workspace]
+members = [
+    "trinci-core-new",
+    "trinci-node",
+    "trinci-mining-tool",
+    "trinci-playground/src-tauri",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.9"
+edition = "2021"
+description = "T.R.I.N.C.I. tools ecosystem."
+
+[workspace.dependencies]
+async-std = { version = "1", features = ["attributes"] }
+bs58 = "0.5"
+clap = { version = "4", features = ["derive"] }
+crossbeam-channel = "0.5"
+env_logger = "0.11"
+futures = "0.3"
+hex = "0.4"
+log = "0.4"
+rand = "0.8"
+ring = "0.17"
+rmp-serde = "1"
+serde = { version = "1", features = ["derive"] }
+serde_bytes = "0.11"
+serde_json = "1"
+tide = "0.16"
+wasmtime = "17.0.0"

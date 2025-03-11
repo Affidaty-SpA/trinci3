@@ -1,0 +1,36 @@
+[package]
+name = "trinci-mining-tool"
+# name = "trinci-mining-tool"
+version.workspace = true
+edition.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+axum = { version = "0.7.4", features = ["ws"] }
+bs58 = "0.5"
+ifcfg = "0.1.2"
+regex = "1.5"
+tokio = { version = "1", features = ["full"] }
+tokio-util = "0.7"
+tower = "0.4"
+
+# Mining tool deps
+async-std = { workspace = true }
+clap = { workspace = true }
+crossbeam-channel = { workspace = true }
+env_logger = { workspace = true }
+futures = { workspace = true }
+hex = { workspace = true }
+isahc = { version = "1", features = ["json"] }
+log = { workspace = true }
+serde = { workspace = true }
+serde_bytes = { workspace = true }
+serde_json = { workspace = true }
+sled = "0.34"
+socketioxide = "0.12"
+tide = { workspace = true }
+trinci-core-new = { path = "../trinci-core-new" }
+trinci-node = { path = "../trinci-node", features = ["mining"] }
+wasmtime = { workspace = true }

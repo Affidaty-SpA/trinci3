@@ -1,0 +1,27 @@
+[package]
+name = "trinci-playground"
+version.workspace = true
+edition.workspace = true
+
+[build-dependencies]
+tauri-build = { version = "1.4", features = [] }
+
+[dependencies]
+async-std = { workspace = true }
+crossbeam-channel = { workspace = true }
+env_logger = { workspace = true }
+futures = { workspace = true }
+log = { workspace = true }
+rand = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tauri = { version = "1", features = ["shell-open"] }
+trinci-core-new = { path = "../../trinci-core-new" }
+trinci-node = { path = "../../trinci-node", default-features = false, features = [
+    "playground",
+] }
+
+[features]
+# this feature is used for production builds or when `devPath` points to the filesystem
+# DO NOT REMOVE!!
+custom-protocol = ["tauri/custom-protocol"]

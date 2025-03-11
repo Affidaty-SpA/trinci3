@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46.5" height="64" viewBox="0 0 46.5 64">
+  <g id="Raggruppa_861" data-name="Raggruppa 861" transform="translate(-5034 -5084)">
+    <g id="Raggruppa_860" data-name="Raggruppa 860" transform="translate(4678 4665)">
+      <g id="Ellisse_24" data-name="Ellisse 24" transform="translate(356 435)" fill="none" stroke="#25303e" stroke-width="6">
+        <circle cx="16" cy="16" r="16" stroke="none"/>
+        <circle cx="16" cy="16" r="13" fill="none"/>
+      </g>
+      <line id="Linea_33" data-name="Linea 33" x1="18" transform="translate(381.5 451)" fill="none" stroke="#b7eb71" stroke-linecap="round" stroke-width="6"/>
+      <line id="Linea_34" data-name="Linea 34" y2="58" transform="translate(399.5 422)" fill="none" stroke="#b7eb71" stroke-linecap="round" stroke-width="6"/>
+    </g>
+    <circle id="Ellisse_27" data-name="Ellisse 27" cx="10" cy="10" r="10" transform="translate(5040 5106)" fill="#b8ea71"/>
+  </g>
+</svg>

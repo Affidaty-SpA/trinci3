@@ -1,0 +1,19 @@
+//! Main module, it is composed by all the node's services.
+pub mod core_interface;
+pub mod db_service;
+pub mod event_service;
+#[cfg(feature = "indexer")]
+pub mod indexer;
+#[cfg(feature = "kafka-producer")]
+pub mod kafka_service;
+#[cfg(feature = "standalone")]
+pub mod p2p_service;
+#[cfg(feature = "playground")]
+pub mod playground_interface;
+#[cfg(feature = "standalone")]
+pub mod rest_api;
+#[cfg(feature = "standalone")]
+pub mod rest_api_t2;
+pub mod socket_service;
+pub mod wasm_service;
+pub mod wm;

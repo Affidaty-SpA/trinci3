@@ -1,0 +1,17 @@
+[package]
+name = "trinci-core-new"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+bs58 = { workspace = true }
+crossbeam-channel = { workspace = true }
+env_logger = { workspace = true }
+hex = { workspace = true }
+log = { workspace = true }
+rand = { workspace = true }
+rand_pcg = "0.3"
+ring = { workspace = true }
+rmp-serde = { workspace = true }
+serde = { workspace = true }
+serde_bytes = { workspace = true }
