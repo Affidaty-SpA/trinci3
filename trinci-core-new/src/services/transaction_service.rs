@@ -1,3 +1,21 @@
+
+// This file is part of TRINCI.
+//
+// Copyright (C) 2025 Affidaty Spa.
+//
+// TRINCI is free software: you can redistribute it and/or modify it under
+// the terms of the GNU Affero General Public License as published by the
+// Free Software Foundation, either version 3 of the License, or (at your
+// option) any later version.
+//
+// TRINCI is distributed in the hope that it will be useful, but WITHOUT
+// ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+// FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
+// for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with TRINCI. If not, see <https://www.gnu.org/licenses/>.
+
 //! `transaction_service` is a module that provides functionality for managing transactions within a blockchain
 //! network. It includes the `TransactionService` struct, which is responsible for handling transaction-related
 //! operations such as adding new transactions to the pool, re-propagating old transactions, and interacting with

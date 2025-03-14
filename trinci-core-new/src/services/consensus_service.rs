@@ -1,3 +1,21 @@
+
+// This file is part of TRINCI.
+//
+// Copyright (C) 2025 Affidaty Spa.
+//
+// TRINCI is free software: you can redistribute it and/or modify it under
+// the terms of the GNU Affero General Public License as published by the
+// Free Software Foundation, either version 3 of the License, or (at your
+// option) any later version.
+//
+// TRINCI is distributed in the hope that it will be useful, but WITHOUT
+// ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+// FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
+// for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with TRINCI. If not, see <https://www.gnu.org/licenses/>.
+
 //! The module `consensus_service` is responsible for managing the consensus process within the blockchain
 //! system. It defines the `ConsensusService` struct and its associated functions, which handle the various
 //! aspects of the consensus mechanism, such as block proposal collection, leader election, message handling,

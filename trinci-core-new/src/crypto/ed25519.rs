@@ -1,3 +1,21 @@
+
+// This file is part of TRINCI.
+//
+// Copyright (C) 2025 Affidaty Spa.
+//
+// TRINCI is free software: you can redistribute it and/or modify it under
+// the terms of the GNU Affero General Public License as published by the
+// Free Software Foundation, either version 3 of the License, or (at your
+// option) any later version.
+//
+// TRINCI is distributed in the hope that it will be useful, but WITHOUT
+// ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+// FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
+// for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with TRINCI. If not, see <https://www.gnu.org/licenses/>.
+
 //! The `ed25519` module provides functionality for working with the Ed25519 signature scheme. It includes
 //! structures and functions for key pair generation, signing, and verification. Key management is facilitated
 //! through the `KeyPair` and `PublicKey` structs, and cryptographic operations are performed using methods such

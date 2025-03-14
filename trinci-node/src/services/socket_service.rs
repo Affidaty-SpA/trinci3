@@ -1,3 +1,21 @@
+
+// This file is part of TRINCI.
+//
+// Copyright (C) 2025 Affidaty Spa.
+//
+// TRINCI is free software: you can redistribute it and/or modify it under
+// the terms of the GNU Affero General Public License as published by the
+// Free Software Foundation, either version 3 of the License, or (at your
+// option) any later version.
+//
+// TRINCI is distributed in the hope that it will be useful, but WITHOUT
+// ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+// FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
+// for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with TRINCI. If not, see <https://www.gnu.org/licenses/>.
+
 //! The `socket_service` module implements ta socket interface used by external clients to subtribe to the nodes events.
 //! In case the `mining` feature is enabled, the interface is used to interact with the TRINCI mining tool, that will send
 //! `SignAndSubmitTx` messages that the socket service will get, check if the signer of the message is the expected mining tool

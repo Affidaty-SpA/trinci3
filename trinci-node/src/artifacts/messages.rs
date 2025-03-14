@@ -1,3 +1,21 @@
+
+// This file is part of TRINCI.
+//
+// Copyright (C) 2025 Affidaty Spa.
+//
+// TRINCI is free software: you can redistribute it and/or modify it under
+// the terms of the GNU Affero General Public License as published by the
+// Free Software Foundation, either version 3 of the License, or (at your
+// option) any later version.
+//
+// TRINCI is distributed in the hope that it will be useful, but WITHOUT
+// ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+// FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
+// for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with TRINCI. If not, see <https://www.gnu.org/licenses/>.
+
 //! `messages` is a module that host all the tools to handle an internal or external communication (Excluded P2P handling).
 //! `Msg` is the enum of one-way communications, `Req` is the enum of two-way (request-response) communication,
 //! both are encapsulated in the `CommKind` enum, so to easily handle communication between services.
